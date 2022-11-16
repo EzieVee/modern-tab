@@ -1,13 +1,28 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, {useState} from "react";
 import { SocialIcon } from "react-social-icons";
+import {useScrollPosition} from "../components/Hooks/useScrollPosition"
 type NavProps = {};
 
+function classNames(...classes:any) {
+  return classes.filter(Boolean).join(' ');
+}
+
 const Nav: React.FC<NavProps> = () => {
+  const scrollPosition = useScrollPosition()
+/* sticky top-0 p-5 flex items-start w-screen mx-auto z-20
+    xl:items-center justify-evenly #93c5fd h-24 shadow-lg */
+
+    console.log(scrollPosition)
+
+
+
   return (
     <header
-      className="sticky top-0 p-5 flex items-start max-w-7xl mx-auto z-20
-    xl:items-center justify-evenly bg-slate-500"
+      className={classNames(
+        scrollPosition > 0 ? 'bg-red-500' : 'bg-yellow-500',
+        'sticky top-0 <z-5></z-5> bg-white transition-shadow',
+      )}
     >
       <motion.div
         initial={{

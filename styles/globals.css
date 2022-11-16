@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-
-} */
+@layer components {
+ .xlHeight {
+  height: 400vh;
+ }
+}
