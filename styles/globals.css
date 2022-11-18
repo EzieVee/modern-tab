@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-img {
+  background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+}
+
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transition: .3s ease-in;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+
+.header-bg {
+  background-color: rgb(48, 231, 231);
+  z-index: 6
+
+}
 @layer components {
  .xlHeight {
   height: 400vh;
