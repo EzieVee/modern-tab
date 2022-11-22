@@ -1,17 +1,18 @@
-import React from 'react'
+import React from "react";
 
 function about() {
   return (
-    <div className='bg-teal-200'>
+<div className=""> 
+1
 
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
 
-    </div>
+
+</div>
+
+
+
+  
   )
 }
 
-export default about
+export default about;
