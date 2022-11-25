@@ -26,7 +26,9 @@ export default function Home() {
       <section id="Hero" className="h-screen bg-teal-300 ">
         <Hero />
       </section>
-      <section id="About" className="h-[120vh] bg-fixed bg-center bg-cover custom-img2">
+      {/* <section id="About" className="h-[120vh] bg-fixed bg-center bg-cover custom-img2">
+      </section> */}
+      <section id="About" className="h-[120vh] bg-[#2b2b2b]">
         <About />
       </section>
     </div>

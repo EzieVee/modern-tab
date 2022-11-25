@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion"
+import Image from 'next/image'
 
 type GalleryProps = {
   
@@ -23,7 +24,7 @@ const Gallery:React.FC<GalleryProps> = () => {
   return (
     <motion.div
     whileHover={{
-      scale: 1.5,
+      scale: 1.15,
       transition: {duration: 1},
     }} 
     whileTap={{
@@ -41,7 +42,16 @@ const Gallery:React.FC<GalleryProps> = () => {
       
     }}
     
-    className="h-[15vh] w-[15vh] bg-teal-400">
+    className="">
+      <div className="h-[70vh] w-[50vh] relative">
+      <Image 
+           src="/Image9.avif"
+           alt=""
+           objectFit="cover"
+          fill
+           
+            />
+      </div>
 
     </motion.div>
   )
