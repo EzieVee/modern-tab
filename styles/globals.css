@@ -84,6 +84,11 @@ html {
   box-shadow: inset 138.47px 0 0 0 #ffffff;
 }
 
+.orangeTransition:hover {
+  color: rgb(253 186 116);
+  transition: ease-in-out 1.5s;
+
+}
 .slideColor2 {
   /* background-color: rgba(254, 215, 170, 0); */
 
