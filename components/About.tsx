@@ -11,7 +11,7 @@ function about() {
     <>
       <div className="flex items-center justify-center h-[120vh] bg-black/70">
 {/* add border-black to see container dimensions */}
-        <div className="flex border h-[85vh] w-[80vw] justify-evenly">
+        <div className="orangeTransitionB flex border h-[85vh] w-[80vw] justify-evenly">
           <div className=" items-center justify-center flex w-[40%] h-[100%] relative ">
            {/* <Image 
            src="/Image5.avif"
