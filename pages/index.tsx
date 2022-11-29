@@ -4,6 +4,7 @@ import About from "../components/About";
 import Bg from "../components/Bg";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
+import Services from "../components/Services";
 // bg-[rgb(36,36,36)]
 
 export default function Home() {
@@ -30,6 +31,9 @@ export default function Home() {
       </section> */}
       <section id="About" className="h-[120vh] bg-[#2b2b2b]">
         <About />
+      </section>
+      <section id="Service" className="h-[75vh] bg-[#2b2b2b]">
+<Services />
       </section>
     </div>
   );

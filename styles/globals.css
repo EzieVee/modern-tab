@@ -120,7 +120,7 @@ html {
 
 .colorChange:hover {
   color: rgb(253 186 116);
-  transition: 1 ease-in-out;
+  transition: 3 ease-in-out;
 
 }
 
