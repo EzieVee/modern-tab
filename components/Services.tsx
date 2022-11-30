@@ -12,7 +12,7 @@ const Services:React.FC<ServicesProps> = () => {
       <motion.div className="h-[100%] w-[100%] flex items-center border border-white">
        <div className="flex justify-evenly">
 
-        <div className=" w-[40%] my-[5] flex flex-col space-y-8  ">
+        <div className=" w-[40%] my-[5] flex flex-col space-y-8 border  ">
           <h1 className="  mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">Our Service</h1>
           <h4 className="font-extrabold text-5xl text-white ">Captur Photography</h4>
           <h1 className="text-gray-400 font-thin">Let us handle the editing.</h1>
@@ -24,17 +24,22 @@ const Services:React.FC<ServicesProps> = () => {
 
         </div>
 
-        <div className="bg-red-300">
-          <ul className="flex flex-row space-x-8 ">
-            <li>Clean Work</li>
-            <li>Quality Guaranteed</li>
+        <div className=" flex flex-col border border-red-500 w-[25%] items-center justify-center">
+          <div className="w-[90%] border-green-500 border grid grid-cols-2 gap-[120px] mt-[300px] ">
+
+          
+          <ul className="flex flex-col space-y-5">
+            <li className="text-gray-400 font-thin">
+              <i className="fi fi-ro-user"></i>Clean Work</li>
+            <li className="text-gray-400 font-thin">Quality Guaranteed</li>
             
           </ul>
-          <ul className="flex flex-row space-x-8 ">
-            <li>Clean Work</li>
-            <li>Quality Guaranteed</li>
+          <ul className="flex flex-col space-y-5">
+            <li className="text-gray-400 font-thin">Detailed</li>
+            <li className="text-gray-400 font-thin">Punctual</li>
            
           </ul>
+          </div>
         </div>
 
        </div>
