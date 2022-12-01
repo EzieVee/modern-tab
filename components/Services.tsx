@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+// import { FcCheckmark } from 'react-icons/fa';
 
+import { MdThumbUpOffAlt } from "react-icons/md";
 type ServicesProps = {
   
 };
@@ -24,20 +26,21 @@ const Services:React.FC<ServicesProps> = () => {
 
         </div>
 
-        <div className=" flex flex-col border border-red-500 w-[25%] items-center justify-center">
-          <div className="w-[90%] border-green-500 border grid grid-cols-2 gap-[120px] mt-[300px] ">
+        <div className=" flex flex-col  w-[25%] items-center justify-center">
+          <div className="w-[90%] grid grid-cols-2 gap-[60px] mt-[300px]">
 
           
           <ul className="flex flex-col space-y-5">
-            <li className="text-gray-400 font-thin">
-              <i className="fi fi-ro-user"></i>Clean Work</li>
-            <li className="text-gray-400 font-thin">Quality Guaranteed</li>
+            <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
+             Clean Work <span className='pl-3'><MdThumbUpOffAlt color="orange"/> </span> </li>
+            <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">Premium Quality<span className='pl-3'><MdThumbUpOffAlt color="orange"/> </span> </li>
             
           </ul>
           <ul className="flex flex-col space-y-5">
-            <li className="text-gray-400 font-thin">Detailed</li>
-            <li className="text-gray-400 font-thin">Punctual</li>
-           
+            <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
+             Detailed <span className='pl-3 '><MdThumbUpOffAlt color="orange"/> </span> </li>
+            <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">Punctual<span className='pl-3'><MdThumbUpOffAlt color="orange"/> </span> </li>
+            
           </ul>
           </div>
         </div>
