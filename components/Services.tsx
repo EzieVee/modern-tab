@@ -32,7 +32,7 @@ const Services:React.FC<ServicesProps> = () => {
           
           <ul className="flex flex-col space-y-5">
             <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
-             Clean Work <span className='pl-3'><MdThumbUpOffAlt color="orange"/> </span> </li>
+             Clean Work <span className='pl-[49px]'><MdThumbUpOffAlt color="orange"/> </span> </li>
             <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">Premium Quality<span className='pl-3'><MdThumbUpOffAlt color="orange"/> </span> </li>
             
           </ul>
