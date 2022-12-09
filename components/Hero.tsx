@@ -16,9 +16,10 @@ const Hero = () => {
         transition={{
           duration: 1
         }}
+        
         // animate={{ x: [0,15,50,150,20,0]}}
         className="text-5xl font-bold nanumFont tracking-[1px]"><span className="colorChange">
-          Captur</span><span className=""> Photography</span></motion.h2>
+          Captur</span><span className="colorChange"> Photography</span></motion.h2>
         <p className="py-5 text-xl dosisFont">I capture moments and keep them alive</p>
         <button className="slideColor3 px-8 py-2 border uppercase font-semibold tracking-[1px] text-xs">Book</button>
       </div>

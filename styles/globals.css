@@ -77,15 +77,15 @@ html {
 }
 
 .slideColor {
-  /* background-color: rgba(254, 215, 170, 0); */
-
   box-shadow: inset 0 0 0 0 #ffffff;
   transition: ease-out 0.5s;
   outline: none;
 }
 .slideColor:hover {
-  box-shadow: inset 138.47px 0 0 0 #ffffff;
+  box-shadow: inset 148.47px 0 0 0 #ffffff;
 }
+
+
 .slideColor3 {
   /* background-color: rgba(254, 215, 170, 0); */
 
