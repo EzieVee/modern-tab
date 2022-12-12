@@ -12,7 +12,6 @@ import Services from "../components/Services";
 export default function Home() {
   return (
     <div className="h-[800vh]">
-      
       {/* <div className=" bg-teal-200 text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
         <Nav />
 
@@ -35,13 +34,13 @@ export default function Home() {
         <About />
       </section>
       <section id="Service" className="h-[75vh] bg-[#2b2b2b]">
-<Services />
+        <Services />
       </section>
       <section id="Portfolio" className="h-[160vh] bg-[#2b2b2b]">
-      <Portfolio />
+        <Portfolio />
       </section>
       <section id="Faq" className="h-[85vh] bg-[#2b2b2b]">
-<Faq />
+        <Faq />
       </section>
     </div>
   );
