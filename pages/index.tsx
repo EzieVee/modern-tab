@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Bg from "../components/Bg";
+import Faq from "../components/Faq";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import Portfolio from "../components/Portfolio";
@@ -36,8 +37,11 @@ export default function Home() {
       <section id="Service" className="h-[75vh] bg-[#2b2b2b]">
 <Services />
       </section>
-      <section id="Portfolio" className="h-[150vh] bg-[#2b2b2b] border">
+      <section id="Portfolio" className="h-[160vh] bg-[#2b2b2b]">
       <Portfolio />
+      </section>
+      <section id="Faq" className="h-[85vh] bg-[#2b2b2b]">
+<Faq />
       </section>
     </div>
   );
