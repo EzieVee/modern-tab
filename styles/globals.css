@@ -4,7 +4,6 @@
 
 /* @import "~@flaticon/flaticon-uicons/css/all/all"; */
 
-
 html::-webkit-scrollbar {
   width: 20px;
   background-color: black;
@@ -45,7 +44,7 @@ html {
   background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
 }
 .custom-img2 {
-  background-image: url(https://images.unsplash.com/photo-1431068799455-80bae0caf685?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+  background-image: url(https://images.unsplash.com/photo-1431068799455-80bae0caf685?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 .custom-img3 {
   background-image: url(https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
@@ -85,29 +84,26 @@ html {
   box-shadow: inset 148.47px 0 0 0 #ffffff;
 }
 
-
 .slideColor3 {
   /* background-color: rgba(254, 215, 170, 0); */
 
-  box-shadow: inset 0 0 0 0 rgb(253 186 116) ;
+  box-shadow: inset 0 0 0 0 rgb(253 186 116);
   transition: ease-out 0.5s;
   outline: none;
 }
 .slideColor3:hover {
   box-shadow: inset 138.47px 0 0 0 rgb(253 186 116);
   color: black;
-  border-color: black
+  border-color: black;
 }
 
 .orangeTransition:hover {
   color: rgb(253 186 116);
   transition: ease-in-out 1.5s;
-
 }
 .orangeTransitionB:hover {
   border-color: rgb(253 186 116);
   transition: ease-in-out 1.5s;
-
 }
 .slideColor2 {
   /* background-color: rgba(254, 215, 170, 0); */
@@ -118,43 +114,24 @@ html {
 }
 .slideColor2:hover {
   box-shadow: inset 0 0 100px 0 rgb(253 186 116);
- color: black;
+  color: black;
 }
 
 .colorChange:hover {
   color: rgb(253 186 116);
   transition: 3 ease-in-out;
-
 }
 
-
-label::before{
-  content: "+";
-  margin-right: 10px;
-  font-size:  24px;
-  font-weight: 600;
+/* Accordion */
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
 }
-
-input[type="radio"]{
-  display: none;
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.accordion .content {
-  color: #555;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s, padding 0.5s;
-}
-
-.accordion input[type="radio"]:checked + label + .content{
-  max-height: 400px;
-  padding: 10px 10px 20px;
-}
-
-
-
-
-
 
 
 @layer components {
