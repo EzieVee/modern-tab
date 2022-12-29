@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 
 type AccordionProps = {};
 
@@ -9,18 +10,22 @@ const Accordion: React.FC<AccordionProps> = () => {
         const [isOpen, setIsOpen] = useState(false);
         return (
           <div className="item">
-            <div className="title font-extrabold text-2xl text-white">
-              <button className="" onClick={() => setIsOpen(!isOpen)}>{item.question}</button>
-              <span>+</span>
+            <div className="title font-extrabold text-2xl text-white  flex flex-col">
+              <button className="toggle" onClick={() => setIsOpen(!isOpen)}>
+                {item.question}
+              </button>
+              {/* <span className="">+</span> */}
             </div>
-            { isOpen && <div className="content text-gray-400 font-thin">
-
+            <div
+              className={
+                isOpen ? "content show" : "content"
+              }
+            >
               {item.answer}
-              
-              </div>}
+            </div>
           </div>
         );
-      })} 
+      })}
     </div>
   );
 };

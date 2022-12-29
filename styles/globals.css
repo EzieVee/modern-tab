@@ -133,6 +133,22 @@ html {
   align-items: center;
 }
 
+/* content show toggle */
+.item .content {
+  height: 0px;
+  overflow: hidden;
+  
+}
+
+.item .content.show{
+  height: 200px;
+  transition: height ease 0.3s;
+  border: solid white 1px;
+  color: rgb(156 163 175);
+  font-weight: 100;
+  
+
+}
 
 @layer components {
   .xlHeight {

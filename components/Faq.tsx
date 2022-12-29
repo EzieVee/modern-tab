@@ -12,7 +12,7 @@ const Faq: React.FC<FaqProps> = () => {
       <div className="h-[85vh] border flex flex-col items-center">
         <div
           id="head"
-          className="flex flex-col items-center border space-y-8 w-[650px] text-center"
+          className="flex flex-col items-center space-y-8 w-[650px] text-center"
         >
           <h4 className="mulishFont text-orange-300 uppercase font-thin text-sm tracking-[1]">
             Portfolio
