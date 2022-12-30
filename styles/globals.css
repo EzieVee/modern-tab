@@ -134,21 +134,35 @@ html {
 }
 
 /* content show toggle */
-.item .content {
+
+/* .item .content {
   height: 0px;
   overflow: hidden;
-  
+  transition: height ease 0.3s;
 }
 
-.item .content.show{
-  height: 200px;
-  transition: height ease 0.3s;
-  border: solid white 1px;
+.item .content.show {
+  height: 80px;
+
   color: rgb(156 163 175);
   font-weight: 100;
-  
+} */
 
+
+.item .content-parent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.3s;
 }
+
+/* .item .content-parent.show {
+  height: auto;
+ color: rgb(156 163 175);
+  font-weight: 100;
+ 
+  
+} */
+
 
 @layer components {
   .xlHeight {

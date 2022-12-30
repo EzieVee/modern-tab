@@ -16,12 +16,13 @@ const Accordion: React.FC<AccordionProps> = () => {
               </button>
               {/* <span className="">+</span> */}
             </div>
-            <div
-              className={
-                isOpen ? "content show" : "content"
-              }
-            >
-              {item.answer}
+
+            <div className={isOpen ? "content-parent show" : "content-parent"}>
+              
+              <div className="content">
+                
+                {item.answer}
+              </div>
             </div>
           </div>
         );
