@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 type AccordionProps = {};
 
@@ -8,6 +8,13 @@ const Accordion: React.FC<AccordionProps> = () => {
     <div className="accordion flex flex-col items-center justify-center text-center mx-[10vw]">
       {data.map((item, i) => {
         const [isOpen, setIsOpen] = useState(false);
+        const parentRef = useRef<HTMLDivElement>(null);
+
+        /*   if (parentRef.current) 
+
+       gives the ref height for the element
+       console.log(parentRef.current.scrollHeight)
+ */
         return (
           <div className="item">
             <div className="title font-extrabold text-2xl text-white  flex flex-col">
@@ -17,12 +24,20 @@ const Accordion: React.FC<AccordionProps> = () => {
               {/* <span className="">+</span> */}
             </div>
 
-            <div className={isOpen ? "content-parent show" : "content-parent"}>
-              
-              <div className="content">
-                
-                {item.answer}
-              </div>
+            <div
+              className="content-parent"
+              ref={parentRef}
+              style={
+                isOpen
+                  ? {
+                      height: parentRef.current?.scrollHeight + "px",
+                    }
+                  : {
+                      height: "0px",
+                    }
+              }
+            >
+              <div className="content border">{item.answer}</div>
             </div>
           </div>
         );
