@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import useDeviceSize from "../components/Hooks/UseDeviceSize";
 
+
 const Navbar = () => {
   const [width, height] = useDeviceSize();
   // console.log(width, height);
@@ -37,8 +38,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <div className="h-[100px]">
-        <div className="flex flex-row  justify-between h-[100px]">
-          <div className="flex items-center ml-[400px]">
+        <div className="flex flex-row justify-between h-[100px] mp:flex justify-evenly">
+          <div className="flex items-center ml-[400px] mp:ml-[0px]">
             <Link className="" href="/">
               <Image
                 width={70}
@@ -50,7 +51,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="flex items-center justify-center w-[40%] font-medium text-2xl text-white">
+          <div className="fs flex items-center justify-center w-[40%] font-medium text-2xl text-white">
             <button className="redBottom px-8 mulishFont tracking-[1px] cursor-pointer">
               Home
             </button>
@@ -64,8 +65,12 @@ const Navbar = () => {
               <button className="slideColor px-8 mulishFont tracking-[1px] cursor-pointer text-black">
                 Contact
               </button>
+              
             </div>
           </div>
+
+<div className="md:hidden flex items-center" id="sidebarMenu">Hamburger</div>
+
           {/* <ul className="bg-blue-300 flex justify-center">
           <li className="">
             <Link href="/">Home</Link>

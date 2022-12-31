@@ -8,6 +8,8 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'mpl': '425px',
+      // mobile phone large
       'mp': '320px',
       // mobile phone
       'sm': '640px',
