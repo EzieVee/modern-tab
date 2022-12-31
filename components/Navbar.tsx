@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import useDeviceSize from "../components/Hooks/UseDeviceSize";
+import Sidebar from "./Sidebar";
 
 
 const Navbar = () => {
@@ -69,7 +70,12 @@ const Navbar = () => {
             </div>
           </div>
 
-<div className="md:hidden flex items-center" id="sidebarMenu">Hamburger</div>
+<div className="md:hidden flex items-center" id="sidebarMenu">
+<div className="flex">
+  <Sidebar />
+</div>
+
+</div>
 
           {/* <ul className="bg-blue-300 flex justify-center">
           <li className="">
