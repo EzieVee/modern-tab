@@ -27,10 +27,21 @@ const Faq: React.FC<FaqProps> = () => {
           </p>
         </div>
 
-        <div id="body" className="h-[65vh] border w-[80vw] flex flex-col items-center">
+        <div
+          id="body"
+          className="h-[65vh] w-[80vw] flex flex-col items-center"
+        >
+          <Accordion />
+          <div className="flex  flex-col items-center py-5 space-y-1 absolute right-10">
+            <h1 className="font-extrabold text-2xl text-white">Not here?</h1>
+            <p className="font-thin text-gray-400 pb-2">
+              Message Us and we'll get back to you ASAP
+            </p>
 
-    <Accordion />
-
+            <span className="bg-orange-300 slideColor px-5 py-1 mulishFont cursor-pointer text-black text-xl font-bold tracking-[1px] ">
+              Contact Us
+            </span>
+          </div>
         </div>
       </div>
     </div>

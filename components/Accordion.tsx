@@ -37,7 +37,7 @@ const Accordion: React.FC<AccordionProps> = () => {
                     }
               }
             >
-              <div className="content border">{item.answer}</div>
+              <div className="content">{item.answer}</div>
             </div>
           </div>
         );
@@ -48,35 +48,31 @@ const Accordion: React.FC<AccordionProps> = () => {
 
 const data = [
   {
-    question: "Question 1",
+    question: "Question One",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
   },
   {
-    question: "Question 2",
+    question: "Question Two",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
   },
   {
-    question: "Question 3",
+    question: "Question Three",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
   },
   {
-    question: "Question 4",
+    question: "Question Four",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
   },
   {
-    question: "Question 5",
+    question: "Question Five",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
-  },
-  {
-    question: "Question 6",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque quos dolorem autem libero. Minima molestiae, totam corrupti voluptatem modi dolor id sunt veritatis sit repellat animi! Neque, ratione alias!",
-  },
+  }
+  
 ];
 
 export default Accordion;

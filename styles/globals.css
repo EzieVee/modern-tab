@@ -4,6 +4,11 @@
 
 /* @import "~@flaticon/flaticon-uicons/css/all/all"; */
 
+html,body {
+  overflow-x: hidden;
+}
+
+
 html::-webkit-scrollbar {
   width: 20px;
   background-color: black;
@@ -164,6 +169,8 @@ html {
  
   
 } */
+
+
 
 
 @layer components {

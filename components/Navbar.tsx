@@ -38,7 +38,7 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <div className="h-[100px]">
         <div className="flex flex-row  justify-between h-[100px]">
-          <div className="flex items-center pl-[400px]">
+          <div className="flex items-center ml-[400px]">
             <Link className="" href="/">
               <Image
                 width={70}
