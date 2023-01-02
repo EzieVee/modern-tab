@@ -39,9 +39,9 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <div className="h-[100px]">
-        <div className="flex flex-row justify-between h-[100px] mp:flex justify-evenly">
-          <div className="flex items-center ml-[400px] mp:ml-[0px]">
-            <Link className="" href="/">
+        <div className="flex flex-row justify-evenly h-[100px]">
+          <div className="flex items-center">
+            <Link className=" md:ml-[-50px] mp:ml-[-100px] " href="/">
               <Image
                 width={70}
                 height={100}
@@ -70,8 +70,8 @@ const Navbar = () => {
             </div>
           </div>
 
-<div className="md:hidden flex items-center" id="sidebarMenu">
-<div className="flex">
+<div className="lg:hidden flex items-center" id="sidebarMenu">
+<div className="">
   <Sidebar />
 </div>
 
