@@ -11,6 +11,11 @@
     display: none; 
   } 
 }
+@media only screen and (max-width: 769px) { 
+  .x { 
+    display: none; 
+  } 
+}
 
 html,body {
   overflow-x: hidden;
