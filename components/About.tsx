@@ -9,7 +9,7 @@ function about() {
     <>
       <div className="flex items-center justify-center h-[120vh] bg-black/70">
         {/* add border-black to see container dimensions */}
-        <div className="orangeTransitionB flex border h-[85vh] w-[80vw] justify-evenly mp:text-center mp:flex-wrap ">
+        <div className="orangeTransitionB flex border h-[85vh] w-[80vw] justify-evenly ">
           <div className="x items-center justify-center flex w-[40%] h-[100%] relative  ">
             {/* <Image 
            src="/Image5.avif"
@@ -23,18 +23,18 @@ function about() {
               <Gallery />
             </div>
           </div>
-          <div className="flex flex-col w-[40%] h-[100%] space-y-8 overflow-hidden">
+          <div className="flex flex-col w-[40%] h-[100%] space-y-8 overflow-hidden border sticky">
             <h4 className="mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">
               Captur Photography
             </h4>
             {/* <ImageEffect /> */}
             <motion.h1
               whileHover={{}}
-              className="font-extrabold text-5xl text-white text-center sm:text-yellow-300"
+              className="font-extrabold text-5xl text-white text-center combo:text-cyan-500"
             >
               Coachella Valley's Finest
             </motion.h1>
-            <p className="text-gray-400 font-thin orangeTransition">
+            {/* <p className="text-gray-400 font-thin orangeTransition border">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab esse
               eligendi mollitia distinctio, dolore tempora in alias quo! Fugit
               atque sequi incidunt hic possimus! Aperiam soluta, delectus ex,
@@ -52,7 +52,33 @@ function about() {
               beatae officia quasi omnis est vero enim! Quisquam praesentium
               beatae nisi veritatis enim? Ratione corrupti eligendi porro
               aspernatur repellat soluta quos.
-            </p>
+            </p> */}
+
+<div id="dialog-window">
+
+  <div id="scrollable-content" className="text-white">
+    <ul>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+      <li>Sample</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+  </div>
+
+</div>
+
           </div>
         </div>
       </div>
