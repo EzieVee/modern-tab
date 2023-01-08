@@ -50,7 +50,17 @@ module.exports = {
       'combo': {
         min: '320px',
        max: '425px'
+      },
+      'combo2': {
+        min: '320px',
+       max: '768px'
+      },
+      'combo3': {
+        min: '320px',
+       max: '1024px'
       }
+
+      
 
 
 
