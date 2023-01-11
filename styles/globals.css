@@ -6,6 +6,38 @@
 
 /* Media Queries */
 
+/* Coachella Valley Finest Scrollbar */
+@media only screen and (min-width: 1441px) {
+ 
+  ::-webkit-scrollbar {
+    width: 20px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(253 186 116);
+    border: 0.25em solid rgb(0, 0, 0);
+    border-radius: 100vw;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    /* background-color: #777; */
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+  
+    border-radius: 100vw;
+  }
+  html::-webkit-scrollbar-track:hover {
+    /* background-color: #555; */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+ 
+
+}
+
 @media only screen and (max-width: 426px) { 
   .fs { 
     display: none; 
@@ -24,10 +56,18 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1439px)  {
   .adjust2 {
     height: 40vh;
     width: 50vw
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .adjust3 {
+    height: 30vh;
+    width: 60vw;
+    margin-left: 0;
   }
 }
 
