@@ -18,7 +18,7 @@ const Hero = () => {
         }}
         
         // animate={{ x: [0,15,50,150,20,0]}}
-        className="mulishFont mt-10 uppercase font-bold tracking-[1] text-4xl mp:text-center"><span className="colorChange text-orange-300 ">
+        className="mulishFont mt-10 uppercase font-bold tracking-[1] text-4xl mp:text-center"><span className="colorChange text-[#fb923c] ">
           Captur</span><span className="colorChange"> Photography</span></motion.h2>
         <p className="py-5 text-xl dosisFont">I capture moments and keep them alive</p>
         <button className="slideColor3 px-8 py-2 border uppercase font-semibold tracking-[1px] text-xs">Book</button>

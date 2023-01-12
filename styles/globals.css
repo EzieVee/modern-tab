@@ -14,7 +14,7 @@
     background-color: black;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(253 186 116);
+    background-color: #fb923c;
     border: 0.25em solid rgb(0, 0, 0);
     border-radius: 100vw;
   }
@@ -103,7 +103,7 @@ html::-webkit-scrollbar {
   background-color: black;
 }
 html::-webkit-scrollbar-thumb {
-  background-color: rgb(253 186 116);
+  background-color: #fb923c;
   border: 0.25em solid rgb(0, 0, 0);
   border-radius: 100vw;
 }

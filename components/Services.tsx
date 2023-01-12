@@ -37,7 +37,7 @@ const Services: React.FC<ServicesProps> = () => {
               ipsum tenetur accusantium.
             </p>
             <button className="">
-              <span className="bg-orange-300 slideColor px-5 py-1 mulishFont cursor-pointer text-black text-xl font-bold tracking-[1px]">
+              <span className="bg-[#fb923c] slideColor px-5 py-1 mulishFont cursor-pointer text-black text-xl font-bold tracking-[1px]">
                 Get a Quote
               </span>
             </button>
