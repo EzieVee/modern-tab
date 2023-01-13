@@ -58,7 +58,13 @@ module.exports = {
       'combo3': {
         min: '320px',
        max: '1024px'
+      },
+      // scrollable container a
+      'combo4': {
+        min: '1025px',
+       max: '1439px'
       }
+      
 
       
 

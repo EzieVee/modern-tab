@@ -5,8 +5,8 @@ type PortfolioProps = {};
 
 const Portfolio: React.FC<PortfolioProps> = () => {
   return (
-    <div className="flex flex-col justify-center bg-black/70">
-      <div className="h-[50vh] flex flex-col items-center justify-center text-center text-white px-[30rem] space-y-8">
+    <div className="flex flex-col justify-center bg-black/70 overflow-hidden">
+      <div className=" px-[30rem]  bg-red-500 h-[50vh] flex flex-col items-center justify-center text-center text-white space-y-8">
         <h4 className="mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">
           Portfolio
         </h4>

@@ -7,8 +7,33 @@
 /* Media Queries */
 
 /* Coachella Valley Finest Scrollbar */
-@media only screen and (min-width: 1441px) {
- 
+
+@media only screen and (min-width: 320px) and (max-width: 1366px) {
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #fb923c;
+    border: 0.25em solid rgb(0, 0, 0);
+    border-radius: 100vw;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100vw;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1025px) {
   ::-webkit-scrollbar {
     width: 20px;
     background-color: black;
@@ -18,35 +43,30 @@
     border: 0.25em solid rgb(0, 0, 0);
     border-radius: 100vw;
   }
-  ::-webkit-scrollbar-thumb:hover {
-    /* background-color: #777; */
-  }
+
   ::-webkit-scrollbar-track {
     background-color: rgb(0, 0, 0);
-  
+
     border-radius: 100vw;
   }
   html::-webkit-scrollbar-track:hover {
     /* background-color: #555; */
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
-  
- 
-
 }
 
-@media only screen and (max-width: 426px) { 
-  .fs { 
-    display: none; 
-  } 
+@media only screen and (max-width: 426px) {
+  .fs {
+    display: none;
+  }
 }
-@media only screen and (max-width: 769px)  { 
-  .x { 
-    display: none; 
-  } 
+@media only screen and (max-width: 769px) {
+  .x {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -56,10 +76,10 @@
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1439px)  {
+@media only screen and (min-width: 769px) and (max-width: 1439px) {
   .adjust2 {
     height: 40vh;
-    width: 50vw
+    width: 50vw;
   }
 }
 
@@ -72,31 +92,23 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 320px) {
-
-  
   #dialog-window {
-   
     border: 1px black solid;
   }
-  
+
   #scrollable-content {
     height: 250px;
     overflow: auto;
-    
   }
-  
+
   #footer {
     height: 20px;
-    
   }
-  
-  
-  
 }
-html,body {
+html,
+body {
   overflow-x: hidden;
 }
-
 
 html::-webkit-scrollbar {
   width: 20px;
@@ -242,7 +254,6 @@ html {
   font-weight: 100;
 } */
 
-
 .item .content-parent {
   height: 0px;
   overflow: hidden;
@@ -258,9 +269,6 @@ html {
  
   
 } */
-
-
-
 
 @layer components {
   .xlHeight {

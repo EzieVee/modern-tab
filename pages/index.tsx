@@ -11,7 +11,7 @@ import Services from "../components/Services";
 
 export default function Home() {
   return (
-    <div className="h-[800vh]">
+    <div className="h-[800vh] flex flex-col">
       {/* <div className=" bg-teal-200 text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
         <Nav />
 
@@ -45,3 +45,4 @@ export default function Home() {
     </div>
   );
 }
+

@@ -9,7 +9,7 @@ type ServicesProps = {};
 const Services: React.FC<ServicesProps> = () => {
   return (
     <div className="flex items-center justify-center h-[75vh] bg-black/70">
-      <motion.div className="h-[100%] w-[100%] flex items-center ">
+      <motion.div className="h-[100%] w-[100%] flex items-center  ">
         <div className="flex justify-evenly">
           <div className=" w-[40%] my-[5] flex flex-col space-y-8   ">
             <h1 className="  mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">
@@ -43,20 +43,9 @@ const Services: React.FC<ServicesProps> = () => {
             </button>
           </div>
 
-          <div className=" flex flex-col  w-[25%] items-center justify-center">
+          <div className="flex flex-col  w-[25%] items-center justify-center">
             <motion.div
-//             initial={{
-//               scale: 1,
-//               opacity: 1,
 
-//             }}
-           
-//             animate={{
-//               y: 100
-//             }}
-// transition={{
-//           duration: 1.5
-//         }}
 whileTap={{
   scale: 0.9
 }}
@@ -71,8 +60,6 @@ whileInView={{
   y: 0,
   opacity: 0.6,
   scale: 1.2,
-  
-  
 }}
             className="h-[200px] w-[250px] relative ml-[30rem]">
               <Image
@@ -83,37 +70,78 @@ whileInView={{
                objectFit="cover"
                className="" />
             </motion.div>
-            <div className="w-[90%] grid grid-cols-2 gap-[60px] mt-[215px]">
-              <ul className="flex flex-col space-y-5">
-                <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
-                  Clean Work{" "}
-                  <span className="pl-[48px]">
+            <div className="w-[90%] flex flex-col gap-[60px] mt-[215px]">
+
+
+              <ul className="flex flex-col space-y-5 ">
+                <li className=" mulishFont text-white flex justify-between text-lg tracking-[1px]">
+                  <div id="parent" className="flex space-x-5">
+                  
+
+
+               
+                 
+                    <span>Clean Work</span>
+                  {" "}
+                  <span className="flex items-center">
                     <MdThumbUpOffAlt color="orange" />{" "}
                   </span>{" "}
-                </li>
-                <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
+                 
+
+                  </div>
+
+
+                  <div>
                   Premium Quality
-                  <span className="pl-3">
+
+                  </div>
+                  <span className="flex items-center">
                     <MdThumbUpOffAlt color="orange" />{" "}
                   </span>{" "}
                 </li>
+                
+                <li className=" mulishFont text-white flex justify-between text-lg tracking-[1px]">
+                  <div id="parent" className="flex space-x-12  w-[50%]">
+                  
+
+
+               
+                 
+                    <span>Detailed</span>
+                  {" "}
+                  <span className="flex items-center">
+                    <MdThumbUpOffAlt color="orange" />{" "}
+                  </span>{" "}
+                 
+
+                  </div>
+
+
+                  <div id="parent" className="flex space-x-12  w-[50%] justify-between">
+                  
+
+
+               
+                 
+                  <span>Punctual</span>
+                {" "}
+                <span className="flex items-center">
+                  <MdThumbUpOffAlt color="orange" />{" "}
+                </span>{" "}
+               
+
+                </div>
+                </li>
+                
               </ul>
-              <ul className="flex flex-col space-y-5">
-                <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
-                  Detailed{" "}
-                  <span className="pl-3 ">
-                    <MdThumbUpOffAlt color="orange" />{" "}
-                  </span>{" "}
-                </li>
-                <li className="mulishFont text-white flex items-center text-lg tracking-[1px]">
-                  Punctual
-                  <span className="pl-3">
-                    <MdThumbUpOffAlt color="orange" />{" "}
-                  </span>{" "}
-                </li>
-              </ul>
+             
             </div>
           </div>
+
+
+
+
+
         </div>
       </motion.div>
     </div>
