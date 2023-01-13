@@ -9,7 +9,7 @@ function about() {
     <>
       <div className="flex items-center justify-center h-[120vh] bg-black/70">
         {/* add border-black to see container dimensions */}
-        <div className="customScrollbar overflow-hidden orangeTransitionB flex border h-[85vh] w-[85vw] combo3:flex-col combo3:items-center combo3">
+        <div className="overflow-hidden orangeTransitionB flex border h-[85vh] w-[85vw] combo3:flex-col combo3:items-center combo3">
           <div className=" items-center justify-center flex h-[100%] relative">
             {/* <Image 
            src="/Image5.avif"
@@ -27,9 +27,7 @@ function about() {
 
 
 {/* Double scrollable */}
-<div id="main-scroll" className="">
 
-<div id="main-content" className="overflow-auto h-[50vh]">
 <div className=" flex justify-center " id="window">
           <div id="window-content" className=" flex flex-col w-[75%]  h-[100%] space-y-8 overflow-hidden combo2:w-[75%] combo2:items-center">
             <h4 className="mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">
@@ -69,8 +67,7 @@ function about() {
 
 </div>
 
-<div id="footer">
-</div>
+
 
 </div>
 
@@ -85,10 +82,7 @@ function about() {
 </div>
 </div>
  
-        </div>
-
-        
-      </div>
+      
 
       {/* <div className="absolute h-[120vh] top-[100vh] left-0 right-0 bottom-0 bg-black/70 z-[2]"></div>
 
