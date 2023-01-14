@@ -29,7 +29,7 @@ function about() {
 {/* Double scrollable */}
 
 <div className=" flex justify-center " id="window">
-          <div id="window-content" className=" flex flex-col w-[75%]  h-[100%] space-y-8 overflow-hidden combo2:w-[75%] combo2:items-center">
+          <div id="window-content" className="flex flex-col w-[75%]  h-[100%] space-y-8 overflow-hidden combo2:w-[75%] combo2:items-center">
             <h4 className="mulishFont mt-10 text-orange-300 uppercase font-thin text-sm tracking-[1]">
               Captur Photography
             </h4>
@@ -41,10 +41,11 @@ function about() {
               Coachella Valley's Finest
             </motion.h1>
 
-            <div id="dialog-window">
+            
 
 <div id="scrollable-content" className="">
-<p className="text-gray-400 font-thin orangeTransition">
+  <div id="scrollTainer" className="">
+  <p className="text-gray-400 font-thin orangeTransition">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab esse
               eligendi mollitia distinctio, dolore tempora in alias quo! Fugit
               atque sequi incidunt hic possimus! Aperiam soluta, delectus ex,
@@ -64,12 +65,14 @@ function about() {
             <p className="text-gray-400 font-thin orangeTransition">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim ipsa architecto tempora quas. Ratione reiciendis sapiente a iste veritatis rem doloribus, minus, vel voluptate doloremque nesciunt, iure blanditiis impedit cupiditate vitae sunt deleniti quos quaerat minima? Inventore at fugiat repudiandae ratione quam in deleniti iste 
             </p>
-
-</div>
-
+  </div>
 
 
 </div>
+
+
+
+
 
 
            
