@@ -43,7 +43,7 @@ const Gallery:React.FC<GalleryProps> = () => {
     }}
     
     className="">
-      <div className="adjust3 adjust2 adjust h-[60vh] w-[50vh] relative ml-11">
+      <div className="adjust3 adjust2 adjust h-[60vh] w-[50vh] relative ml-11 ">
       <Image 
            src="/Image9.avif"
            alt=""

@@ -19,7 +19,7 @@ function about() {
            
             /> */}
 
-            <div className="flex items-center justify-center combo3:mt-10">
+            <div className="flex items-center justify-center combo3:mt-10 ">
               <Gallery />
             </div>
           </div>
